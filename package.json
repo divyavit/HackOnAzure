@@ -1,0 +1,47 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "Scanner QRcode with Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "node-webcam": "^0.6.4",
+    "parcel-bundler": "^1.12.4",
+    "passport": "^0.4.1",
+    "pug": "^3.0.0",
+    "qrcode": "^1.4.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.0",
+    "babel-preset-es2016": "^6.24.1",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Savalone47/Qrcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Savalone47/Qrcode/issues"
+  },
+  "homepage": "https://github.com/Savalone47/Qrcode#readme"
+}

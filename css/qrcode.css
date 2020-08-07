@@ -1,0 +1,17 @@
+body {
+    background-color: #DDA02C;
+  }
+  .heading__name {
+    
+    font-family: 'Dancing Script', 'Lato';
+    margin-left:25%;
+    margin-top: 10%;
+    font-size: 4rem;
+  }
+  .heading__namee {
+    
+    font-family: 'Dancing Script', 'Lato';
+    margin-left:2%;
+    margin-top: 2%;
+    font-size: 2rem;
+  }

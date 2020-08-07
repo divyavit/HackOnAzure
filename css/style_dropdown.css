@@ -1,0 +1,36 @@
+.dropdown-el {
+  margin-top: 20vh;
+  min-width: 3em;
+  display: inline-block;
+  margin-right: 1em;
+  min-height: 2.3em;
+  max-height: 2.3em;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+  top:7.4em;
+  text-align: left;
+  white-space: nowrap;
+  color: #444;
+  outline: none;
+  border: .06em solid transparent;
+  border-radius: 1em;
+  background-color: #cde4f5;
+  transition: 0.3s all ease-in-out;
+}
+
+.user_type {
+  border-top: .06em solid #d9d9d9;
+  font-family: 'Lato', sans-serif;
+  color: rgb(7, 6, 6);
+  font-size: 1.3rem;
+  display: block;
+  height: 2em;
+  line-height: 2em;
+  padding-left: 1em;
+  padding-right: 3em;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s color ease-in-out;
+}
+

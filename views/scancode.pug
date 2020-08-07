@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title QR Code Scanner
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;')
+    style 
+      include ../css/scan.css
+    script(src='https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js')
+  body
+    #container
+      h1 QR Code Scanner
+      a#btn-scan-qr
+        img(src='https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg')
+      a
+        canvas#qr-canvas(hidden='')
+        #qr-result(hidden='')
+          b Data:
+          span#outputData
+    a
+      script(type="text/javascript")
+        include ../scripts/scan.js

@@ -1,0 +1,14 @@
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title List of Social places
+    style
+      include ../css/list.css
+  body
+    .wrapper
+      ul.mat_list.card.scrollable
+        .mat_list_title
+          h1=type
+        each item in list
+          li
+            a(href="/list/" + item.id + '/' + customer_id)=item.name
